@@ -5,25 +5,26 @@ html,body,*{
     padding: 0;
 }
 
-/* less specific gets overridden by more specific*/
 
-div{
-    width: 30rem;
-    height: 55rem;
-    background-color: red;
-    margin: 2.5rem 2.5rem; /* space between elements */
-    padding: 5rem;
+.main-body{
+    background-color: cyan;
+    color: red;
 }
 
-.card{
-    background-color: black;
-    color: white;
+.main-body-div{
+    font-size: 10rem;
 }
 
-.card-title{
+.main-body-p{
+    
+}
+
+.hero-landing{
+    background-color: greenyellow;
     text-align: center;
 }
-
-#test{
-    background-color: blue;
+.hero-landing-header{
+    font-size: 10rem;
+    color: yellow;
+    
 }
