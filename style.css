@@ -5,45 +5,33 @@ html,body,*{
     padding: 0;
 }
 
-body{
-    background-color: cyan;
-    color: red;
-    font-size: 10rem;
+.hero{
+    color: #cec6ac;
+    background-color: #52744b;
+    background-image: linear-gradient(rgba(255,255,255,255), rgba(0,0,0,0));
+
+    height: 100vh;
+    padding: 0rem 5rem;
 }
 
-.intro{
-    text-align: center;
+.hero-content{
+    height: 100vh;
 }
 
-.intro-subheader{
-    font-size: 10rem;
+.hero h1{
+    justify-self: left;
+    font-size: 30rem;
 }
 
-.intro-p{
-    font-size: 5rem;
-    text-align: center;
-}
-
-.hero-landing{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: greenyellow;
-    text-align: center;
-}
-
-.hero-landing-div{
-    vertical-align: middle;
-}
-.hero-landing-header{
-    font-family: "Creepster", system-ui;
-    font-weight: 400;
-    font-style: normal;
+.hero h2{
+    justify-self: left;
     font-size: 20rem;
-    color: yellow;
-       
+    margin-left: 1rem;
 }
 
-.hero-landing-img{
-    width: 100%;
+.hero p{
+    justify-self: end;
+    font-size: 10rem;
+    text-align: right;
+
 }
