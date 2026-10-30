@@ -20,7 +20,7 @@ html,body,*{
 
 .hero h1{
     justify-self: left;
-    font-size: 30rem;
+    font-size: 25rem;
     font-family: "IBM Plex Serif", serif;
     font-weight: 300;
     font-style: normal;
@@ -29,7 +29,7 @@ html,body,*{
 
 .hero h2{
     justify-self: left;
-    font-size: 20rem;
+    font-size: 15rem;
 
     font-family: "IBM Plex Serif", serif;
     font-weight: 300;
@@ -47,6 +47,18 @@ html,body,*{
 
 }
 
-.hero-content a{
-    text-align:right;
+
+.hero-button-div{
+    padding: 20rem 0 0 0;
+    text-align: center;
+}
+
+.hero-button-div button{
+    font-size: 5rem;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    border-radius: 1rem;
+    vertical-align: middle;
+    color: #ffffff;
 }
