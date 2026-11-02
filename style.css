@@ -31,7 +31,6 @@ html,body,*{
     background-size: auto 100vh ;
     background-repeat: no-repeat;
     line-height: 1;
-    height: 100vh;
     padding: 0rem 5rem;
 }
 
@@ -43,7 +42,7 @@ html,body,*{
     justify-self: left;
     font-size: 25rem;
     font-family: "IBM Plex Serif", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: italic;
 
 }
@@ -87,9 +86,7 @@ html,body,*{
     background-image: linear-gradient(rgba(2, 0, 3,255),rgba(15,15,20,255));
     transition: 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
     
-
 }
-
 
 .hero button:hover{
     transform: scale(110%);
