@@ -6,9 +6,12 @@ html,body,*{
 }
 
 .hero{
-    color: #ececd4;
-    background-color: #52744b;
-    background-image: linear-gradient(rgba(162,196,155,255), rgba(82,116,75,255));
+    color: #fcd191;
+    background-image: url("background.jpg"), linear-gradient(rgba(2, 0, 3,255),rgba(2, 1, 8,255)); 
+    background-position: right;
+    background-attachment: fixed;
+    background-size: auto 100vh ;
+    background-repeat: no-repeat;
     line-height: 1;
     height: 100vh;
     padding: 0rem 5rem;
@@ -20,16 +23,16 @@ html,body,*{
 
 .hero h1{
     justify-self: left;
-    font-size: 25rem;
+    font-size: 14vw;
     font-family: "IBM Plex Serif", serif;
     font-weight: 300;
-    font-style: normal;
+    font-style: italic;
 
 }
 
 .hero h2{
     justify-self: left;
-    font-size: 15rem;
+    font-size: 7vw;
 
     font-family: "IBM Plex Serif", serif;
     font-weight: 300;
@@ -38,27 +41,32 @@ html,body,*{
 }
 
 .hero p{
-    justify-self: end;
-    font-size: 10rem;
+    margin-top: 10rem;
+    margin-left: 2rem;
+    font-size: 2vw;
     font-family: "IBM Plex Serif", serif;
     font-weight: 200;
     font-style: normal;
-    text-align: right;
 
 }
 
 
-.hero-button-div{
-    padding: 20rem 0 0 0;
-    text-align: center;
-}
-
-.hero-button-div button{
-    font-size: 5rem;
+.hero button{
+    margin-left: 2rem;
+    margin-top: calc(70vh - 20vw);
+    margin-bottom: 5rem;
+    font-size: 2vw;
+    width: 20vw;
     font-family: "IBM Plex Serif", serif;
     font-weight: 200;
     font-style: normal;
     border-radius: 1rem;
+    border-color: #fcd191;
     vertical-align: middle;
-    color: #ffffff;
+    color: #fcd191;
+    background-image: linear-gradient(rgba(2, 0, 3,255),rgba(15,15,20,255));
+}
+
+.intro{
+    background-color: #3b3a3f;
 }
