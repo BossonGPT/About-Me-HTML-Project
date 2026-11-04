@@ -17,11 +17,18 @@ html,body,*{
     font-style: normal;
 }
 
+#IBM-PLEX-SERIF-ITALIC{
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
 #IBM-PLEX-SERIF-NORMAL{
     font-family: "IBM Plex Serif", serif;
     font-weight: 300;
     font-style: normal;
 }
+
 
 .hero{
     color: #fcd191;
@@ -104,16 +111,31 @@ html,body,*{
     font-size: 10rem;
 }
 
+.intro h3{
+    font-size: 7rem;
+    margin-bottom: 5rem;
+}
+
 .intro p{
     font-size: 5rem;
 }
 
-.intro ul{
+.intro ul, .intro ol{
     font-size: 5rem;
     padding: 0 10rem;
+    padding-bottom: 2rem;
 }
 
 .intro li{
     text-decoration:none;
     font-size: 5rem;
+}
+
+.intro img{
+    width: 30rem;
+}
+
+.intro a{
+    font-size: 2rem;
+    color: #cccccc;
 }
